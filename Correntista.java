@@ -1,11 +1,8 @@
-public class Corretista {
+public class Correntista {
 
     private String nome;
     private ContaCorrente conta;
 
-    public Corretista(String nome) {
-        this.nome = nome;
-    }
 
     public String getNome() {
         return nome;
@@ -13,5 +10,10 @@ public class Corretista {
 
     public ContaCorrente getContaCorrente() {
         return conta;
+    }
+
+    public Correntista(String nome, ContaCorrente conta) {
+        this.nome = nome;
+        this.conta = conta;
     }
 }
