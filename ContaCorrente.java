@@ -1,6 +1,10 @@
 public class ContaCorrente {
 
-    private double saldoConta = 0;
+    private double saldoConta;
+
+    public ContaCorrente() {
+        this.saldoConta = 0;
+    }
 
     public double getSaldo() {
         return saldoConta;

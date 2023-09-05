@@ -9,7 +9,7 @@ public class Correntista {
     }
 
     public ContaCorrente getContaCorrente() {
-        return conta;
+        return this.conta;
     }
 
     public Correntista(String nome, ContaCorrente conta) {
